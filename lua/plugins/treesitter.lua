@@ -2,6 +2,7 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
+      compilers = { "clang", "gcc" },
       ensure_installed = {
         "vue",
         "javascript",
