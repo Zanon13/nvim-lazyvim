@@ -9,7 +9,6 @@ return {
         "typescript",
         "css",
         "gitignore",
-        "graphql",
         "http",
         "json",
         "scss",
