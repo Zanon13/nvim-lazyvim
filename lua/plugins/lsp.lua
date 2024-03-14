@@ -35,7 +35,7 @@ return {
             plugins = {
               {
                 name = "@vue/typescript-plugin",
-                location = "/usr/local/lib/node_modules/@vue/typescript-plugin",
+                location = "/home/zanon/.n/lib/node_modules/@vue/typescript-plugin", -- NOTE: Sempre verificar local desse plugin, sempre baixar globalmente
                 languages = { "javascript", "typescript", "vue" },
               },
             },
