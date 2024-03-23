@@ -15,6 +15,8 @@ return {
         "sql",
         "vim",
         "lua",
+        "markdown",
+        "markdown_inline",
       },
       query_linter = {
         enable = true,
