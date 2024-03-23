@@ -6,7 +6,7 @@ vim.api.nvim_create_autocmd("InsertLeave", {
 
 -- Desabilitando o conceallevel para arquivos json, jsonc e markdown (Padrão: 3)
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "json", "jsonc", "markdown" },
+  pattern = { "json", "jsonc" },
   callback = function()
     vim.opt.conceallevel = 0
   end,
